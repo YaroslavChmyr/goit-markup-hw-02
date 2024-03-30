@@ -85,7 +85,6 @@ ul {
 .nav-link:hover,
 .nav-link:focus {
     color: var(--pressed-state-color);
-    text-decoration: underline;
 }
 
 .contact-link {
@@ -93,6 +92,7 @@ ul {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: var(--primary-text-color);
+    font-style: normal;
 }
 
 .contact-link:hover,
@@ -164,3 +164,4 @@ ul {
     color: var(--white-background);
     background-color: var(--pressed-state-color);
 }
+
